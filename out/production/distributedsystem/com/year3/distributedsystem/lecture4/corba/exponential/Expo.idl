@@ -1,0 +1,5 @@
+module Exponential {
+    interface Expo {
+        long calculate(in long a, in long b);
+    };
+};
