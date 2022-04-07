@@ -1,0 +1,93 @@
+2022-04-04 21:31:07,337 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/huynhanh/IdeaProjects/distributedsystem/apache-activemq-5.17.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2022-04-04 21:31:07,764 | INFO  | PListStore:[/Users/huynhanh/IdeaProjects/distributedsystem/apache-activemq-5.17.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2022-04-04 21:31:07,945 | INFO  | Apache ActiveMQ 5.17.0 (localhost, ID:MacBook-Pro-cua-Huynh.local-61109-1649082667786-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2022-04-04 21:31:07,986 | INFO  | Listening for connections at: tcp://MacBook-Pro-cua-Huynh.local:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-04-04 21:31:07,986 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2022-04-04 21:31:07,995 | INFO  | Listening for connections at: amqp://MacBook-Pro-cua-Huynh.local:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-04-04 21:31:07,995 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2022-04-04 21:31:08,001 | INFO  | Listening for connections at: stomp://MacBook-Pro-cua-Huynh.local:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-04-04 21:31:08,001 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2022-04-04 21:31:08,006 | INFO  | Listening for connections at: mqtt://MacBook-Pro-cua-Huynh.local:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-04-04 21:31:08,006 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2022-04-04 21:31:08,011 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2022-04-04 21:31:08,105 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2022-04-04 21:31:08,265 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@27d33393{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2022-04-04 21:31:08,318 | INFO  | Listening for connections at ws://MacBook-Pro-cua-Huynh.local:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2022-04-04 21:31:08,318 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2022-04-04 21:31:08,318 | INFO  | Apache ActiveMQ 5.17.0 (localhost, ID:MacBook-Pro-cua-Huynh.local-61109-1649082667786-0:1) started | org.apache.activemq.broker.BrokerService | main
+2022-04-04 21:31:08,318 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2022-04-04 21:31:08,339 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/huynhanh/IdeaProjects/distributedsystem/apache-activemq-5.17.0/data/kahadb only has 90296 mb of usable space. - resetting to maximum available disk space: 90296 mb | org.apache.activemq.broker.BrokerService | main
+2022-04-04 21:31:09,497 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2022-04-04 21:31:09,498 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2022-04-04 22:22:35,262 | INFO  | Apache ActiveMQ 5.17.0 (localhost, ID:MacBook-Pro-cua-Huynh.local-61109-1649082667786-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2022-04-04 22:22:35,270 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-04-04 22:22:35,272 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-04-04 22:22:35,274 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-04-04 22:22:35,276 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-04-04 22:22:35,303 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-04-04 22:22:35,311 | INFO  | PListStore:[/Users/huynhanh/IdeaProjects/distributedsystem/apache-activemq-5.17.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2022-04-04 22:22:35,311 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2022-04-04 22:22:35,311 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2022-04-04 22:22:35,311 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2022-04-04 22:22:35,401 | INFO  | Apache ActiveMQ 5.17.0 (localhost, ID:MacBook-Pro-cua-Huynh.local-61109-1649082667786-0:1) uptime 51 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2022-04-04 22:22:35,401 | INFO  | Apache ActiveMQ 5.17.0 (localhost, ID:MacBook-Pro-cua-Huynh.local-61109-1649082667786-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2022-04-07 13:13:24,359 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/huynhanh/IdeaProjects/distributedsystem/apache-activemq-5.17.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2022-04-07 13:13:24,530 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2022-04-07 13:13:24,699 | INFO  | PListStore:[/Users/huynhanh/IdeaProjects/distributedsystem/apache-activemq-5.17.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2022-04-07 13:13:24,883 | INFO  | Apache ActiveMQ 5.17.0 (localhost, ID:MacBook-Pro-cua-Huynh.local-65321-1649312004723-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2022-04-07 13:13:24,988 | INFO  | Listening for connections at: tcp://MacBook-Pro-cua-Huynh.local:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-04-07 13:13:24,989 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2022-04-07 13:13:24,996 | INFO  | Listening for connections at: amqp://MacBook-Pro-cua-Huynh.local:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-04-07 13:13:24,996 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2022-04-07 13:13:25,002 | INFO  | Listening for connections at: stomp://MacBook-Pro-cua-Huynh.local:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-04-07 13:13:25,002 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2022-04-07 13:13:25,005 | INFO  | Listening for connections at: mqtt://MacBook-Pro-cua-Huynh.local:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-04-07 13:13:25,006 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2022-04-07 13:13:25,012 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2022-04-07 13:13:25,151 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2022-04-07 13:13:25,250 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@429f7919{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2022-04-07 13:13:25,310 | INFO  | Listening for connections at ws://MacBook-Pro-cua-Huynh.local:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2022-04-07 13:13:25,310 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2022-04-07 13:13:25,310 | INFO  | Apache ActiveMQ 5.17.0 (localhost, ID:MacBook-Pro-cua-Huynh.local-65321-1649312004723-0:1) started | org.apache.activemq.broker.BrokerService | main
+2022-04-07 13:13:25,310 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2022-04-07 13:13:25,329 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/huynhanh/IdeaProjects/distributedsystem/apache-activemq-5.17.0/data/kahadb only has 91003 mb of usable space. - resetting to maximum available disk space: 91003 mb | org.apache.activemq.broker.BrokerService | main
+2022-04-07 13:13:26,425 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2022-04-07 13:13:26,425 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2022-04-07 14:08:49,741 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/huynhanh/IdeaProjects/distributedsystem/apache-activemq-5.17.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2022-04-07 14:08:49,941 | INFO  | Page File: /Users/huynhanh/IdeaProjects/distributedsystem/apache-activemq-5.17.0/data/kahadb/db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2022-04-07 14:08:49,962 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2022-04-07 14:08:49,968 | INFO  | Page File: /Users/huynhanh/IdeaProjects/distributedsystem/apache-activemq-5.17.0/data/kahadb/db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2022-04-07 14:08:50,167 | INFO  | PListStore:[/Users/huynhanh/IdeaProjects/distributedsystem/apache-activemq-5.17.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2022-04-07 14:08:50,356 | INFO  | Apache ActiveMQ 5.17.0 (localhost, ID:MacBook-Pro-cua-Huynh.local-50888-1649315330197-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2022-04-07 14:08:50,533 | INFO  | Listening for connections at: tcp://MacBook-Pro-cua-Huynh.local:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-04-07 14:08:50,534 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2022-04-07 14:08:50,543 | INFO  | Listening for connections at: amqp://MacBook-Pro-cua-Huynh.local:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-04-07 14:08:50,543 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2022-04-07 14:08:50,548 | INFO  | Listening for connections at: stomp://MacBook-Pro-cua-Huynh.local:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-04-07 14:08:50,548 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2022-04-07 14:08:50,553 | INFO  | Listening for connections at: mqtt://MacBook-Pro-cua-Huynh.local:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2022-04-07 14:08:50,553 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2022-04-07 14:08:50,559 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2022-04-07 14:08:50,708 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2022-04-07 14:08:50,858 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@862f408{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2022-04-07 14:08:50,945 | INFO  | Listening for connections at ws://MacBook-Pro-cua-Huynh.local:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2022-04-07 14:08:50,945 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2022-04-07 14:08:50,945 | INFO  | Apache ActiveMQ 5.17.0 (localhost, ID:MacBook-Pro-cua-Huynh.local-50888-1649315330197-0:1) started | org.apache.activemq.broker.BrokerService | main
+2022-04-07 14:08:50,945 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2022-04-07 14:08:50,971 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/huynhanh/IdeaProjects/distributedsystem/apache-activemq-5.17.0/data/kahadb only has 90985 mb of usable space. - resetting to maximum available disk space: 90985 mb | org.apache.activemq.broker.BrokerService | main
+2022-04-07 14:08:52,120 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2022-04-07 14:08:52,121 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2022-04-07 14:10:41,009 | INFO  | Apache ActiveMQ 5.17.0 (localhost, ID:MacBook-Pro-cua-Huynh.local-50888-1649315330197-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2022-04-07 14:10:41,013 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2022-04-07 14:10:41,013 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-04-07 14:10:41,013 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2022-04-07 14:10:41,015 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-04-07 14:10:41,016 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-04-07 14:10:41,017 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-04-07 14:10:41,044 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-04-07 14:10:41,050 | INFO  | PListStore:[/Users/huynhanh/IdeaProjects/distributedsystem/apache-activemq-5.17.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2022-04-07 14:10:41,050 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2022-04-07 14:10:41,051 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2022-04-07 14:10:41,051 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2022-04-07 14:10:41,138 | INFO  | Apache ActiveMQ 5.17.0 (localhost, ID:MacBook-Pro-cua-Huynh.local-50888-1649315330197-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2022-04-07 14:10:41,138 | INFO  | Apache ActiveMQ 5.17.0 (localhost, ID:MacBook-Pro-cua-Huynh.local-50888-1649315330197-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
